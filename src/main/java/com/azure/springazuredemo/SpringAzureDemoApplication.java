@@ -14,6 +14,11 @@ public class SpringAzureDemoApplication {
 		return "Congrats your app deployed successfully in azure";
 	}
 
+	@GetMapping("/employees")
+	public String message2() {
+		return "meesgae2";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAzureDemoApplication.class, args);
 	}
