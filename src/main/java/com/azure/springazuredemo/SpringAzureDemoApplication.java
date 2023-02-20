@@ -16,7 +16,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping("/employees")
 	public String message2() {
-		return "meesgae2";
+		return "[{\"id\":1,\"name\":\"utkarsh\",\"dept\":\"DEV\",\"salary\":500},{\"id\":2,\"name\":\"abhay\",\"dept\":\"DEV\",\"salary\":50000},{\"id\":3,\"name\":\"sunil\",\"dept\":\"DEV\",\"salary\":8000}]";
 	}
 
 	public static void main(String[] args) {
