@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringAzureDemoApplication {
 	
-	@GetMapping("/emplyees")
+	@GetMapping("/message")
 	public String message() {
-		return "[{\"id\":1,\"name\":\"utkarsh\",\"dept\":\"DEV\",\"salary\":500},{\"id\":2,\"name\":\"abhay\",\"dept\":\"DEV\",\"salary\":50000},{\"id\":3,\"name\":\"sunil\",\"dept\":\"DEV\",\"salary\":8000}]";
+		return "Hello from spring boot demo project";
 	}
 
 	public static void main(String[] args) {
